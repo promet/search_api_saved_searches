@@ -142,6 +142,7 @@ function search_api_saved_searches_schema() {
       'results' => array(
         'description' => 'A comma-separated list of all "old" results for this saved search.',
         'type' => 'text',
+        'size' => 'big',
         'not null' => FALSE,
       ),
     ),
